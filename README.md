@@ -5,11 +5,15 @@ raspberryPi3を使用してLEDを点滅させる
 
 LEDの点滅
 
-`$make  
-$sudo insmod myled.ko  
-$sudo chmod 666 /dev/myled0  
-$echo 1 > /dev/myled0		# LEDを点灯  
-$echo 0 > /dev/myled0		# LEDを消灯`  
+`$make
+
+$sudo insmod myled.ko
+
+$sudo chmod 666 /dev/myled0
+
+$echo 1 > /dev/myled0		# LEDを点灯
+
+$echo 0 > /dev/myled0		# LEDを消灯`
 
 ログの確認
 
