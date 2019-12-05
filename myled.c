@@ -23,7 +23,7 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 
 	if(c == '0'){
 		gpio_base[10] = 1 << 25;
-		printk(KERN_INFO "LEC_OFF\n");
+		printk(KERN_INFO "LED_OFF\n");
 	}
 	else if(c =='1'){
 		gpio_base[7] = 1 << 25;
@@ -32,7 +32,7 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 
 
 
-	printk(KERN_INFO "receive %c\n",c);
+	//printk(KERN_INFO "receive %c\n",c);
 	return 1; //読み込んだ文字数を返す（この場合はダミーの１）
 }
 
