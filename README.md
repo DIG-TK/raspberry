@@ -23,4 +23,4 @@ LEDの点滅
 
 # 参考資料
 動作確認用　動画  
-[google]https://twitter.com/CitDaigo/status/1202463610796044288
+https://twitter.com/CitDaigo/status/1202463610796044288
