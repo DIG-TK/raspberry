@@ -22,7 +22,7 @@ LEDの点滅
 `$sudo rmmod myled`  
 
 動作確認用　動画  
-https://twitter.com/CitDaigo/status/1202463610796044288
+https://twitter.com/CitDaigo/status/1204627330116644864
 
 
 # 参考資料
